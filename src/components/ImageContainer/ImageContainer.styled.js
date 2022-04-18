@@ -28,7 +28,7 @@ export const ImageText = styled.h1`
     background-color: #c4c4c4;
 
     margin: 0;
-    font-size: 1rem;
+    font-size: 2rem;
 `
 export const TestDiv = styled.div`
     height: 200px;
@@ -39,7 +39,7 @@ export const TestDiv = styled.div`
 `
 export const BottomText = styled.p`
 
-    font-size: 1rem;
+    font-size: 2rem;
     background-color: #c4c4c4;
     margin: 0;
 `

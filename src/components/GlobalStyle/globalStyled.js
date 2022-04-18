@@ -5,12 +5,10 @@ const GlobalStyle = createGlobalStyle`
         margin:0;
         padding:0;
         box-sizing: border-box;
-        height: 100vh;
     }
     #root{
         display:flex;
         flex-direction: column;
-        height: 100%;
     }
 `;
 
