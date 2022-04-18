@@ -17,6 +17,7 @@ export const LogoDiv = styled.div`
 export const MenuDiv = styled.nav`
     display:flex;
     width: auto;
+    align-items: center;
     margin-right: 30px;
     ul {
         display:flex;
@@ -25,6 +26,11 @@ export const MenuDiv = styled.nav`
     }
     li{
         margin: 0 10px;
+    }
+    @media screen and (max-width:768px) {
+        ul{
+            display:none;
+        }
     }
 
 `
@@ -36,4 +42,45 @@ export const LoginButton = styled.button`
     align-items: center;
     background-color: white;
 
+`
+
+export const HamBurger = styled.button`
+    display:none;
+    @media screen and (max-width:768px) {
+        display:flex;
+        flex-direction: column;
+        justify-content: space-around;
+        width: 2rem;
+        height: 2rem;
+        background: transparent;
+        border: none;
+        cursor: pointer;
+        padding: 0;
+        z-index: 10;
+        
+        &:focus{
+            outline: none;
+        }
+        div{
+            width: 100%;
+            height: 0.25rem;
+            background: black;
+            transition: all 0.3s linear;
+            transform-origin: 1px; 
+            :first-child{
+               transform: ${({ open }) => open ? "rotate(45deg)" : "rotate(0)"};
+            }
+            :nth-child(2){
+                opacity: ${({open}) => open ? "0" : "1"};
+                transform: ${({ open }) => open ? "translateX(20px)" : "translate(0)"};
+             
+            }
+            :last-child{
+               transform: ${({ open }) => open ? "rotate(-45deg)" : "rotate(0)"};
+            }
+
+        }
+    }
+
+   
 `
