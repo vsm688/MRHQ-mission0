@@ -21,7 +21,7 @@ const HeaderComponent = () => {
     <>
       <StyledHeader>
         <LogoDiv>
-          <img src={"/images/company/logo.jpg"}></img>
+          <img src={"/images/company/logo.svg"}></img>
           <h2>The PC part Company</h2>
         </LogoDiv>
         <MenuDiv>
