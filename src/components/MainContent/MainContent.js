@@ -4,7 +4,7 @@ const MainContent = () => {
   return (
     <MainDiv>
       <TextDiv>
-        <h1>Loreum Ipsum Dolor sit amet</h1>
+        <h1>Search for all your PC part needs</h1>
       </TextDiv>
       <SearchContainer>
 

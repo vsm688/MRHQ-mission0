@@ -30,7 +30,7 @@ export const ImageText = styled.h1`
     margin: 0;
     font-size: 2rem;
 `
-export const TestDiv = styled.div`
+export const TestDiv = styled.img`
     height: 200px;
 
     background-color: #e5e5e5;

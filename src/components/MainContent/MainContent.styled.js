@@ -2,7 +2,7 @@ import styled from "styled-components"
 
 export const MainDiv = styled.div`
     display:flex;
-    background-color: grey;
+    background: linear-gradient(115deg, #800000 50%, #FFFFFF 50%);
     justify-content: flex-end;
     align-items: center;
     flex-direction: column;
@@ -38,6 +38,7 @@ export const SearchContainer = styled.div`
     @media screen and (max-width: 768px){
         width: 90%;
     }
+    border: 2px solid black;
 `
 
 export const SearchInput = styled.input`
