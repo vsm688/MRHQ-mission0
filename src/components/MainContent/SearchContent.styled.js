@@ -5,7 +5,7 @@ export const MainDiv = styled.div`
     justify-content: flex-end;
     align-items: flex-start;
     flex-direction: column;
-    background: url("/images/company/parts.jpg");
+    background: url("/images/company/parts.jpg"); 
     width: 100%;
     @media screen and (max-width:768px) {
         justify-content: center;

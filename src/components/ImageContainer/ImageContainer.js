@@ -16,7 +16,7 @@ const ImageContainer = () => {
             <ImageContentContainer key={index}>
               <TestDiv src={item.path}></TestDiv>
               <ImageText>{item.name}</ImageText>
-              <BottomText>$ {item.price}</BottomText>
+              <BottomText>{"$" + item.price}</BottomText>
             </ImageContentContainer>
           );
         })}

@@ -31,7 +31,7 @@ const HeaderComponent = () => {
             <li>Contact us</li>
             <LoginButton>Login</LoginButton>
           </ul>
-          <HamBurger open={burgerState} onClick={() => {clickBurgerMenu()}}>
+          <HamBurger open={burgerState} onClick={clickBurgerMenu}>
             <div></div>
             <div></div>
             <div></div>

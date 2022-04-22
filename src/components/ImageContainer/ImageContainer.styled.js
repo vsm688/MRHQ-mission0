@@ -7,7 +7,7 @@ export const ImageCenteringDiv = styled.div`
     grid-gap: 20px;
     padding: 10px;
     grid-column-gap: 40px;
-    width: 80%;
+  
     @media screen and (max-width: 768px){
         grid-template-columns: 1fr;
     }
@@ -21,8 +21,7 @@ export const ImageContentContainer = styled.div`
     margin: 0 10px;
     border: 1px solid grey;
     overflow: hidden;
-    border-top-left-radius: 15px;
-    border-top-right-radius: 15px;
+    border-radius: 15px;
     background-color: #FFFFFF;
    
     
