@@ -13,12 +13,13 @@ const HeaderComponent = () => {
   const clickBurgerMenu = () => {
     changeBurgerState(!burgerState);
     changedropDownState(!dropDownState);
-    
+
   };
 
 
   return (
     <>
+
       <StyledHeader>
         <LogoDiv>
           <img src={"/images/company/logo.svg"}></img>
@@ -38,12 +39,12 @@ const HeaderComponent = () => {
           </HamBurger>
         </MenuDiv>
       </StyledHeader>
-      <DropDown drop = {dropDownState}>
-          <ul>
-              <li>Menu 1</li>
-              <li>Menu 2</li>
-              <li>Menu 3</li>
-          </ul>
+      <DropDown drop={dropDownState}>
+        <ul>
+          <li>Menu 1</li>
+          <li>Menu 2</li>
+          <li>Menu 3</li>
+        </ul>
       </DropDown>
     </>
   );
